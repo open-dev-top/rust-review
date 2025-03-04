@@ -1,3 +1,4 @@
+#[allow(unused)]
 fn main() {
     // if
     let number = 1;
