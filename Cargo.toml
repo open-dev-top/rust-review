@@ -1,6 +1,15 @@
 bin = [
   { name = "hello", path = "01/hello.rs" },
-  ]
+  { name = "variable", path = "03/variable.rs" },
+  { name = "constant", path = "03/constant.rs" },
+  { name = "shadowing", path = "03/shadowing.rs" },
+  { name = "scalar_type", path = "03/scalar_type.rs" },
+  { name = "compound_type", path = "03/compound_type.rs" },
+  { name = "function", path = "03/function.rs" },
+  { name = "statement_and_expression", path = "03/statement_and_expression.rs" },
+  { name = "comment", path = "03/comment.rs" },
+  { name = "control_flow", path = "03/control_flow.rs" },
+]
 
 [package]
 name = "rust-review"
