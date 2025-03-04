@@ -1,0 +1,10 @@
+bin = [
+  { name = "hello", path = "01/hello.rs" },
+  ]
+
+[package]
+name = "rust-review"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
