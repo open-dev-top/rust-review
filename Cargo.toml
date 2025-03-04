@@ -10,6 +10,9 @@ bin = [
   { name = "comment", path = "03/comment.rs" },
   { name = "control_flow", path = "03/control_flow.rs" },
   { name = "guess_number", path = "02/guess_number.rs" },
+  { name = "ownership", path = "04/ownership.rs" },
+  { name = "reference_and_borrowing", path = "04/reference_and_borrowing.rs" },
+  { name = "slice", path = "04/slice.rs" },
 ]
 
 [package]
