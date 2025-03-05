@@ -15,6 +15,10 @@ bin = [
   { name = "slice", path = "04/slice.rs" },
   { name = "struct", path = "05/struct.rs" },
   { name = "rectangles", path = "05/rectangles.rs" },
+  { name = "enum", path = "06/enum.rs" },
+  { name = "match", path = "06/match.rs" },
+  { name = "option", path = "06/option.rs" },
+  { name = "if_let", path = "06/if_let.rs" },
 ]
 
 [package]
