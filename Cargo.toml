@@ -19,6 +19,9 @@ bin = [
   { name = "match", path = "06/match.rs" },
   { name = "option", path = "06/option.rs" },
   { name = "if_let", path = "06/if_let.rs" },
+  { name = "vector", path = "08/vector.rs" },
+  { name = "string", path = "08/string.rs" },
+  { name = "hashmap", path = "08/hashmap.rs" },
 ]
 
 [package]
