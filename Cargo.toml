@@ -22,12 +22,17 @@ bin = [
   { name = "vector", path = "08/vector.rs" },
   { name = "string", path = "08/string.rs" },
   { name = "hashmap", path = "08/hashmap.rs" },
+  { name = "panic", path = "09/panic.rs" },
+  { name = "result", path = "09/result.rs" },
 ]
 
 [package]
 name = "rust-review"
 version = "0.1.0"
 edition = "2021"
+
+[profile.release]
+panic = 'abort'
 
 [dependencies]
 rand = "0.8.5"
